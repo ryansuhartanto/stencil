@@ -1,7 +1,7 @@
 {
   "name": "@stencil/unplugin",
   "version": "5.0.0-beta.19",
-  "description": "Universal bundler plugin for Stencil components (Vite, Rollup, Webpack, esbuild)",
+  "description": "Universal bundler plugin for Stencil components (Vite, Rollup, Rolldown, Webpack, esbuild, Rspack)",
   "homepage": "https://stenciljs.com/",
   "license": "MIT",
   "author": "StencilJs Contributors",

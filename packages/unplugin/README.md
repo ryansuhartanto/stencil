@@ -1,6 +1,6 @@
 # @stencil/unplugin
 
-Universal bundler plugin for Stencil components — supports Vite, Rollup, Webpack, esbuild, and Rspack.
+Universal bundler plugin for Stencil components — supports Vite, Rollup, Rolldown, Webpack, esbuild, and Rspack.
 
 Lets you import and use Stencil components directly in any bundler without a full Stencil build pipeline. Each `.tsx` component file is transpiled on-the-fly via `transpileSync` into a self-registering custom element.
 
@@ -41,6 +41,17 @@ import { stencilRollup } from '@stencil/unplugin';
 
 export default {
   plugins: [stencilRollup()],
+};
+```
+
+### Rolldown
+
+```ts
+// rolldown.config.js
+import { stencilRolldown } from '@stencil/unplugin';
+
+export default {
+  plugins: [stencilRolldown()],
 };
 ```
 

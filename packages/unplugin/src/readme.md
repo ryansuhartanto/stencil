@@ -1,10 +1,10 @@
 # @stencil/unplugin
 
-An [unplugin](https://github.com/unjs/unplugin)-based bundler plugin so Stencil components can be authored and consumed directly inside Vite/Rollup/webpack/rspack/esbuild/bun projects, without running the full Stencil compiler/build pipeline.
+An [unplugin](https://github.com/unjs/unplugin)-based bundler plugin so Stencil components can be authored and consumed directly inside Vite/Rollup/Rolldown/webpack/rspack/esbuild/bun projects, without running the full Stencil compiler/build pipeline.
 
 ## How It Works
 
-`plugin.ts` wires together four concerns and exports one factory (`unpluginStencil`) that `index.ts` instantiates per bundler (`stencilVite`, `stencilRollup`, `stencilWebpack`, `stencilEsbuild`):
+`plugin.ts` wires together four concerns and exports one factory (`unpluginStencil`) that `index.ts` instantiates per bundler (`stencilVite`, `stencilRollup`, `stencilRolldown`, `stencilWebpack`, `stencilEsbuild`, `stencilRspack`):
 
 | File               | Responsibility                                                                 |
 | ------------------- | ------------------------------------------------------------------------------- |

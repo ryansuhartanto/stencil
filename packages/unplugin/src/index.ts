@@ -6,6 +6,7 @@ import type { StencilPluginOptions } from './options.js';
 
 export const stencilVite = unpluginStencil.vite;
 export const stencilRollup = unpluginStencil.rollup;
+export const stencilRolldown = unpluginStencil.rolldown;
 export const stencilWebpack = unpluginStencil.webpack;
 export const stencilEsbuild = unpluginStencil.esbuild;
 export const stencilRspack = unpluginStencil.rspack;
